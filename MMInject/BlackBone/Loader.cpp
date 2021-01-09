@@ -310,3 +310,4 @@ ResolveImagePath(
 
 	return STATUS_SUCCESS;
 }
+
