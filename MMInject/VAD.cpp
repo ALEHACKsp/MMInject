@@ -152,3 +152,4 @@ GetPTEForVA(
 		return Pde;
 
 	return MiGetPteAddress(Address);
+}
