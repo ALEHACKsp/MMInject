@@ -4,7 +4,6 @@
 #include "BlackBone/Loader.h"
 
 #define IGNORE_IMPORT_HOOKS			0
-
 #define LDR_IS_DATAFILE(x)			(((ULONG_PTR)(x)) & (ULONG_PTR)1)
 #define LDR_DATAFILE_TO_VIEW(x)		((PVOID)(((ULONG_PTR)(x)) & ~(ULONG_PTR)1))
 
