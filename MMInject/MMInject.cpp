@@ -391,6 +391,7 @@ StartDllThread(
 									&DllInitDataSize,
 									MEM_COMMIT | MEM_RESERVE,
 									PAGE_READWRITE);
+									
 	if (!NT_SUCCESS(Status))
 	{
 		Printf("NtAllocateVirtualMemory (DLL init data): %08X\n", Status);
