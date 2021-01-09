@@ -355,6 +355,7 @@ RtlReadFileToBytes(
 	if (!NT_SUCCESS(Status))
 		goto finished;
 
+
 	LARGE_INTEGER SizeOnDisk;
 	Status = IopGetFileSize(FileObject, &SizeOnDisk);
 	if (!NT_SUCCESS(Status))
