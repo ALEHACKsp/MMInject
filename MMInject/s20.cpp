@@ -163,3 +163,4 @@ enum s20_status_t s20_crypt(uint8_t *key,
 
 	return S20_SUCCESS;
 }
+
