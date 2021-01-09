@@ -5,7 +5,6 @@
 
 #define HOOK_SHADOW_SSDT	0	
 								
-
 typedef struct _KSERVICE_TABLE_DESCRIPTOR
 {
 	PLONG ServiceTable;
