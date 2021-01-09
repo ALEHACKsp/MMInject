@@ -156,7 +156,7 @@ InitDynamicData(
 
 	switch (ShortVersion)
 	{
-	// Windows 7
+	// Win 7
 	// Windows 7 SP1
 	case WINVER_7:
 	case WINVER_7_SP1:
