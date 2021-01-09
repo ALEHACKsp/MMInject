@@ -44,6 +44,7 @@ static CONSTEXPR const UCHAR CommonReturnPattern[] = { 0x48, 0x03, 0xC1, 0xC3 };
 #pragma alloc_text(INIT, LocatePiDDBCacheTable)
 #endif
 
+
 DECLSPEC_NOINLINE
 static
 ULONG_PTR
