@@ -1,6 +1,7 @@
 #include "MMInject.h"
 #include "Utils.h"
 
+
 #ifdef ALLOC_PRAGMA
 #pragma alloc_text(PAGE, RtlAdjustProcessPrivilege)
 #pragma alloc_text(PAGE, RegQueryValueString)
