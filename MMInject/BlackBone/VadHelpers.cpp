@@ -1,7 +1,6 @@
 #include "MMInject.h"
 #include "VadHelpers.h"
 
-
 #ifdef ALLOC_PRAGMA
 #pragma alloc_text(PAGE, MiPromoteNode)
 #pragma alloc_text(PAGE, MiRebalanceNode)
