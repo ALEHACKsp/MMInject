@@ -1,6 +1,6 @@
 # MMInject
 
-Kernel DLL Injector using NX Bit Swapping and VAD hide for hiding injected DLL
+Kernel DLL Injector using PTE Manipulation (NX) and VAD hide for hiding injected DLL
 
 ## Method
 
